@@ -1,0 +1,67 @@
+.sidebar {
+  display: flex;
+  flex: 0.25;
+  /* width: 25vw; */
+  height: 100vh;
+  flex-direction: column;
+  background-color: rgb(46, 198, 114);
+  border-right: 5px solid rgba(46, 198, 114, 0.1);
+}
+
+.sidebar__header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 50px;
+}
+
+.sidebar__avatar {
+  border-radius: 50%;
+  border: 3.5px solid rgb(50, 45, 45);
+  text-align: center;
+  padding: 0.2em;
+  margin: 0.3em 0.1em 0 0em;
+
+  cursor: pointer;
+  background-color: lightgoldenrodyellow;
+  font-size: 2rem;
+}
+
+.sidebar__input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  background-color: white;
+  padding: 0.4em 0.4rem;
+  border-radius: 16px;
+  margin-top: 0.5em;
+  margin-left: 8px;
+  margin-right: 4px;
+  color: aquamarine;
+}
+
+.sidebar__input input {
+  text-align: left;
+  /* margin-top: -0.8px; */
+  border: none;
+  border-radius: 16px;
+  margin-left: 8px;
+
+  color: rgb(45, 71, 62);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.sidebar__chats {
+  padding-top: 1rem;
+}
+
+.sidebar__chats :hover {
+  background-color: lightseagreen;
+}

@@ -1,0 +1,29 @@
+.sidebarchat {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgb(150, 231, 159);
+  width: 100%;
+  cursor: pointer;
+
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.sidbarChat__info {
+  margin-left: 15px;
+  position: relative;
+  width: 75.33%;
+}
+
+.sidbarChat__info small {
+  position: absolute;
+  top: 5px;
+  margin-right: 8px;
+  right: 0;
+}
+
+.sidebarchat {
+  overflow-y: hidden;
+}
